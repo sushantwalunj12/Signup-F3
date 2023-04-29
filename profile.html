@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Page</title>
+
+  <link rel="stylesheet" href="styleprofile.css">
+</head>
+<body>
+  <nav>
+    <ul id="flexbox">
+      <li class="flex-left">Header</li>
+      <li class="flex-right">
+        <a href="#">Signup</a>
+      </li>
+      <li class="flex-right">
+        <a href="#">Profile</a>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="hidden" id="user_deatails">
+    <p class="profile" id="profile-details">Profile</p>
+    <p class="profile" id="profile-name">Full Name :
+      <span id="disp-name"></span>
+    </p>
+    <p class="profile" id="profile-email">Email :
+      <span id="disp-email"></span>
+    </p>
+    <p class="profile" id="profile-password">Password :
+      <span id="disp-password"></span>
+    </p>
+  </div>
+  <button id="logout-btn" onclick="logOut()">Logout</button>
+
+  <script src="scriptprofile.js"></script>
+</body>
+</html>

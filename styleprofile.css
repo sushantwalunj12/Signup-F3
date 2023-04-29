@@ -1,0 +1,63 @@
+
+* {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  body {
+    background-color: #151514;
+    color: white;
+  }
+  
+  #flexbox {
+    display: flex;
+    box-sizing: border-box;
+    padding: 1rem;
+    justify-content: flex-end;
+    background-color: #151514;
+    list-style: none;
+  }
+  
+  nav{
+    border-bottom: 2px solid white;
+  }
+  
+  .flex-left {
+    margin-right: auto;
+    padding: 0.3rem;
+  }
+  
+  .flex-right {
+    padding: 0.3rem;
+    margin-right: 0.5rem;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  a:hover {
+    color: bisque;
+  }
+  
+  .profile {
+    margin: 1rem 2rem;
+    padding: 0.5rem;
+    font-size: 3rem;
+  }
+  
+  #profile-details {
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    color: #18dc4c;
+  }
+  
+  #logout-btn {
+    display: block;
+    width: 10rem;
+    font-size: 1.5rem;
+    padding: 0.3rem 0rem;
+    margin-top: 5rem;
+    margin-left: 3rem;
+  }

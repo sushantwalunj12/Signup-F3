@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: #151514;
+  color: white;
+}
+
+#flexbox {
+  display: flex;
+  box-sizing: border-box;
+  padding: 1rem;
+  justify-content: flex-end;
+  background-color: #151514;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: bisque;
+}
+
+nav{
+  border-bottom: 2px solid white;
+}
+
+.flex-left {
+  margin-right: auto;
+  padding: 0.3rem;
+}
+
+.flex-right {
+  padding: 0.3rem;
+  margin-right: 0.5rem;
+}
+
+#form {
+  width: 50rem;
+  height: 40rem;
+  padding: 0.5rem;
+  margin: 5rem auto;
+}
+
+h2 {
+  display: block;
+  font-size: 4rem;
+  font-weight: 300;
+  margin-bottom: 4rem;
+}
+
+.labels {
+  padding: 1px;
+}
+
+.left {
+  display: block;
+  width: 100%;
+  margin: 2px 0;
+  padding: 0.2rem 0;
+  border: none;
+  background-color: #151514;
+  color: white;
+  font-size: 1.5rem;
+}
+
+::placeholder {
+  color: white;
+  opacity: 1; 
+}
+
+hr {
+  width: 100%;
+  background-color: white;
+  margin-top: -1rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.alert {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  padding: 0.5rem 0;
+}
+
+.alert div {
+  margin-top: 0.5rem;
+}
+
+#submit-btn {
+  display: block;
+  width: 10rem;
+  font-size: 1.5rem;
+  padding: 0.3rem 0rem;
+  margin-top: 3rem;
+  margin-left: 0.2rem;
+  cursor: pointer;
+}
